@@ -11,8 +11,9 @@
 
 				
 			<![CDATA[<p><a href="img/Le tong ket.jpg" data-lightbox="gallery" data-title=""><img width="400" height="300" src="img/Le tong ket.jpg" alt=""></img></a>
-			<img width="400" height="300" src="img/Le tong ket 2.jpg" alt="">
-			<img width="400" height="300" src="img/Le tong ket 4.jpg" alt="">
+			<a href="img/Le tong ket 2.jpg" data-lightbox="gallery" data-title=""><img width="400" height="300" src="img/Le tong ket 2.jpg" alt=""></img></a>
+			<a href="img/Le tong ket 3.jpg" data-lightbox="gallery" data-title=""><img width="400" height="300" src="img/Le tong ket 3.jpg" alt=""></img></a>
+			<a href="img/Le tong ket 4.jpg" data-lightbox="gallery" data-title=""><img width="400" height="300" src="img/Le tong ket 4.jpg" alt=""></img></a>
 			</p>]]> 
 			</Content>
 		</news>	
