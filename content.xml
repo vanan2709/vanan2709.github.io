@@ -37,112 +37,76 @@
 			<Filename>img/NT_Xâu màu.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 13</Description>
+			<Description>Ngày nhà giáo VN</Description>
 			<Filename>img/teacher1.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 12</Description>
+			<Description>Giờ học của bé</Description>
 			<Filename>img/about1.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 11</Description>
+			<Description>Khám sức khỏe tại trường</Description>
 			<Filename>img/about2.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 10</Description>
+			<Description>Vui đón giáng sinh</Description>
 			<Filename>img/about3.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 9</Description>
+			<Description>Văn nghệ tổng kết</Description>
 			<Filename>img/about4.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 8</Description>
+			<Description>Vui hội trăng rằm</Description>
 			<Filename>img/about5.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 7</Description>
+			<Description>Ngày nhà giáo VN</Description>
 			<Filename>img/teacher1.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 6</Description>
+			<Description>Văn nghệ tổng kết</Description>
 			<Filename>img/pic01.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 5</Description>
+			<Description>Văn nghệ tổng kết</Description>
 			<Filename>img/pic02.jpg</Filename>
 		</image>		
 		<image>
-			<Description>Mô tả bức ảnh 4</Description>
+			<Description>Khám sức khỏe tại trường</Description>
 			<Filename>img/pic03.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 3</Description>
+			<Description>Bé đón xuân</Description>
 			<Filename>img/pic04.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 2</Description>
+			<Description>Bé đón xuân</Description>
 			<Filename>img/pic05.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 1</Description>
+			<Description>Vui hội trăng rằm</Description>
 			<Filename>img/pic06.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 14</Description>
+			<Description>Ngày nhà giáo VN</Description>
 			<Filename>img/teacher3.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 13</Description>
+			<Description>Lễ tổng kết năm học</Description>
 			<Filename>img/teacher2.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 12</Description>
-			<Filename>img/about1.jpg</Filename>
-		</image>
-		<image>
-			<Description>Mô tả bức ảnh 11</Description>
-			<Filename>img/about2.jpg</Filename>
-		</image>
-		<image>
-			<Description>Mô tả bức ảnh 10</Description>
-			<Filename>img/about3.jpg</Filename>
-		</image>
-		<image>
-			<Description>Mô tả bức ảnh 9</Description>
-			<Filename>img/about4.jpg</Filename>
-		</image>
-		<image>
-			<Description>Mô tả bức ảnh 8</Description>
-			<Filename>img/about5.jpg</Filename>
-		</image>
-		<image>
-			<Description>Mô tả bức ảnh 7</Description>
-			<Filename>img/teacher1.jpg</Filename>
-		</image>
-		<image>
-			<Description>Mô tả bức ảnh 6</Description>
-			<Filename>img/pic06.jpg</Filename>
-		</image>
-		<image>
-			<Description>Mô tả bức ảnh 5</Description>
-			<Filename>img/pic07.jpg</Filename>
-		</image>		
-		<image>
-			<Description>Mô tả bức ảnh 4</Description>
+			<Description>Bé đón xuân</Description>
 			<Filename>img/pic08.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 3</Description>
+			<Description>Văn nghệ tổng kết</Description>
 			<Filename>img/pic09.jpg</Filename>
 		</image>
 		<image>
-			<Description>Mô tả bức ảnh 2</Description>
+			<Description>Vui hội trăng rằm</Description>
 			<Filename>img/pic10.jpg</Filename>
-		</image>
-		<image>
-			<Description>Mô tả bức ảnh 1</Description>
-			<Filename>img/about1.jpg</Filename>
 		</image>
 		<!-- Thêm các bức ảnh khác tại đây -->
 	</pictures>
