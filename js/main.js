@@ -114,8 +114,14 @@
                     if (words.length > 20) {
                         content = words.slice(0, 20).join(' ') + '...';
                     }
-					const newsId = '#news-0' + (index + 1);
-                    const newsHtml = `<div id=${newsId} class="testimonial-item bg-light rounded p-5"><p class="fs-5"><strong>${title}</strong><br>${content}</p></div>`;
+		    const id = $(this).find('id').text(); // Lấy id từ XML				
+		    const newsId = '#news-0' + (index + 1);
+                    const newsHtml = `
+									<div id=${newsId} class="testimonial-item bg-light rounded p-5">
+										<p class="fs-5">
+											<strong><a href="news.html?id=${id}">${title}</a></strong><br>${content}
+										</p>
+									</div>`;
                     $('.news-carousel').owlCarousel('add', newsHtml).owlCarousel('update');
 					}
 				});
