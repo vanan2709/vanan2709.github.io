@@ -87,7 +87,7 @@
 					const id = $(this).find('id').text(); // Lấy id từ XML
 					const title = $(this).find('Title').text();
 					const content = $(this).find('Content').text();
-					newsData.push({ title, content });
+					newsData.push({id, title, content });
 					i = i + 1;
 					if (i > max_news_item)
 					{
