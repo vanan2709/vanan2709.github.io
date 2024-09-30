@@ -84,6 +84,7 @@
 				//news section
 				var max_news_item = newsPerPage * max_page;
 				$(xml).find('news').each(function() {
+					const id = $(this).find('id').text(); // Lấy id từ XML
 					const title = $(this).find('Title').text();
 					const content = $(this).find('Content').text();
 					newsData.push({ title, content });
@@ -93,8 +94,14 @@
 						return false;
 					}
 				});
-				displayPage(1);
-				setupPagination();
+				const id = getQueryParam('id');
+				if (id) {	
+					showDetailFromId(id); // Hiển thị chi tiết tin tức dựa trên id
+				}
+				else {
+					displayPage(1);
+					setupPagination();
+				}
 				//end news section
 				
 				//pictures section
@@ -144,7 +151,10 @@
 				console.log("An error occurred while processing XML file.");
 			}
 		});
-
+		function getQueryParam(param) {
+			const urlParams = new URLSearchParams(window.location.search);
+			return urlParams.get(param);
+		}
 		// Hàm hiển thị một trang
 		function displayPage(page) {
 			const start = (page - 1) * newsPerPage;
@@ -159,7 +169,7 @@
 				const contentHtml = `<p>${truncatedContent}</p>`;
 				const seeMoreButton = `
 					<div style="text-align: right; margin-bottom: 10px;">
-						<a class="btn btn-primary rounded-pill py-3 px-5 view-more" href="#" data-title="${news.title}" data-content="${encodeURIComponent(news.content)}">Xem thêm</a>
+						<a class="btn btn-primary rounded-pill py-3 px-5 view-more" href="news.html?id=${news.id}" data-id="${news.id}" data-title="${news.title}" data-content="${encodeURIComponent(news.content)}">Xem thêm</a>
 					</div>`;
 				const newsHtml = `<div style=""><div>${titleHtml}${contentHtml}</div>${seeMoreButton}</div>`;
 				$('#news-box').append(newsHtml);
@@ -168,6 +178,7 @@
 			// Xử lý sự kiện cho nút Xem thêm
 			$('a.view-more').click(function(event) {
 					event.preventDefault();
+					const id = $(this).data('id'); 
 					const title = $(this).data('title');
 					
 					let content = decodeURIComponent($(this).data('content'));
@@ -177,7 +188,7 @@
 						<h1>${title}</h1>
 						<p>${content}</p>`;
 					$('#news-detail').html(detailHtml);
-					history.pushState({ page: 'detail' }, title, `#detail`);
+					history.pushState({ id: id }, title, `?id=${id}`);
 					$('#news-box').hide();
 					$('#pagination').hide();
 					$('html, body').animate({ scrollTop: 0 }, 'slow');
@@ -239,27 +250,89 @@
 				})
 			}
 		}
-			
+		// Hàm hiển thị chi tiết từ id
+		function showDetailFromId(id) {
+			// Tìm tin tức theo id
+			const newsToDisplay = newsData.find(news => news.id == id);
+			if (newsToDisplay) {
+				const title = newsToDisplay.title;
+				let content = decodeURIComponent(newsToDisplay.content);
+				//let content = decodeURIComponent($(this).data('content'));
+				content = content.replace(/([.!?])\s*(?=[A-Z])/g, "$1<p>");
+
+				const detailHtml = `
+					<button id="back-button" class="btn btn-secondary mb-4">Back</button>
+					<h1>${title}</h1>
+					<p>${content}</p>`;
+				$('#news-detail').html(detailHtml);
+				$('#news-box').hide();
+				$('#pagination').hide();
+
+				// Xử lý sự kiện cho nút Back
+				$('#back-button').click(function() {
+					$('#news-detail').empty();
+					$('#news-box').show();
+					$('#pagination').show();
+					history.back();
+				});
+			}
+		}	
 		// Xử lý sự kiện popstate để quay lại danh sách tin tức khi nhấn nút Back
 		window.onpopstate = function(event) {
-			if (event.state && event.state.page === 'detail') {
-				// Xử lý khi quay lại trang chi tiết
+			if (event.state && event.state.id) {
+				// Nếu có id trong state, hiển thị lại chi tiết tin tức
+				const id = event.state.id;
+				const newsItem = newsData.find(news => news.id === id);
+
+				if (newsItem) {
+					const title = newsItem.title;
+					let content = newsItem.content;
+					content = content.replace(/([.!?])\s+(?=[A-ZĐ])/g, "$1<p>");
+					const detailHtml = `
+						<button id="back-button" class="btn btn-secondary mb-4">Back</button>
+						<h1>${title}</h1>
+						<p>${content}</p>`;
+					$('#news-detail').html(detailHtml);
+					$('#news-box').hide();
+					$('#pagination').hide();
+				}
+				else
+				{
+					$.ajax({
+						type: "GET",
+						url: "content.xml",
+						dataType: "xml",
+						success: function(xml) {
+							// Lưu dữ liệu sau khi tải
+							$(xml).find('news').each(function() {
+								const newsId = $(this).find('id').text(); // ID từ XML
+								const title = $(this).find('Title').text();
+								const content = $(this).find('Content').text();
+								newsData.push({ id: newsId, title: title, content: content });
+							});
+							// Gọi hàm để hiển thị chi tiết tin tức
+							showDetailFromId(id);
+						}
+					});
+				}
 			} else {
-				// Quay lại danh sách tin tức
+			// Nếu không có id trong state, quay lại danh sách tin tức
+				displayPage(1);
 				$('#news-detail').empty();
 				$('#news-box').show();
 				$('#pagination').show();
+				
 			}
 		};
 
 		// Kiểm tra hash để hiển thị nội dung chi tiết nếu có
-		if (window.location.hash === '#detail') {
+		/*if (window.location.hash === '#detail') {
 			// Mô phỏng nhấn nút "Xem thêm" sau khi dữ liệu đã được tải
 			$(window).on('load', function() {
 				showDetailFromHash();
 				//alert("Window Loaded.");
 			});
-		}
+		}*/
 		
 		//Pictures
 		
