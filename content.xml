@@ -2,15 +2,44 @@
 <root>
 	<!--news section -->
 	<newsList>
+		<news>
+			<id>2</id>
+			<Title>Hoạt động tuần 1 tháng 10/2024</Title>
+			<Content>
+				Một tuần tràn đầy năng lượng của các bạn nhỏ
+
+			<![CDATA[<p><a href="img/Hoat Dong T1T10_1.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_1.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_2.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_2.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_3.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_3.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_4.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_4.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_5.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_5.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_6.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_6.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_7.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_7.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_8.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_8.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_9.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_9.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_10.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_10.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_11.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_11.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_12.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_12.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_13.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_13.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_14.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_14.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_15.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_15.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_16.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_16.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_17.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_17.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_18.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_18.jpg" alt=""></img></a>
+			<a href="img/Hoat Dong T1T10_19.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Hoat Dong T1T10_19.jpg" alt=""></img></a>
+			</p>]]> 
+			</Content>
+		</news>			
+	</newsList>
+	
+	<newsList>
 
 		<news>
 			<id>2</id>
 			<Title>Khám sức khỏe đầu năm 2024</Title>
 			<Content>
 				Vào ngày 25/09/2024 nhà trường cùng với trạm Y tế phường Bửu Hoà tổ chức khám sức khỏe lần 1 năm học 2024-2025 cho các con. Các con rất ngoan, được các Y Bác sĩ khen nè ba mẹ ơi!                                                                     
-
-
-				
+							
 			<![CDATA[<p><a href="img/2024_KSK1.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/2024_KSK1.jpg" alt=""></img></a>
 			<a href="img/2024_KSK2.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/2024_KSK2.jpg" alt=""></img></a>
 			<a href="img/2024_KSK3.jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/2024_KSK3.jpg" alt=""></img></a>
