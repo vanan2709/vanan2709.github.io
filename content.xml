@@ -3,7 +3,20 @@
 	<!--news section -->
 	<newsList>
 		<news>
-			<id>2</id>
+			<id>3</id>
+			<Title>Cùng đón tết 2025</Title>
+			<Content>
+			Tết, tết, tết đến rồi
+			<![CDATA[<p><a href="img/Tết(1).jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Tết(1).jpg" alt=""></img></a>
+			<a href="img/Tết(2).jpg" data-lightbox="gallery" data-title=""><img width="300" height="400" src="img/Tết(2).jpg" alt=""></img></a>	
+				
+	</Content>
+		</news>			
+	</newsList>	
+
+	<newsList>
+		<news>
+			<id>4</id>
 			<Title>Tiêm vaccine Sởi tháng 10/2024</Title>
 			<Content>
 			Sáng thứ hai, ngày 7/10/2024, y tế phường Bửu Hòa đã đền trường tiêm vaccine Sởi cho các bé
@@ -44,7 +57,7 @@
 				
 	<newsList>
 		<news>
-			<id>2</id>
+			<id>3</id>
 			<Title>Hoạt động tuần 1 tháng 10/2024</Title>
 			<Content>
 				Một tuần tràn đầy năng lượng của các bạn nhỏ
