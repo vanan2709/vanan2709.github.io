@@ -3,6 +3,21 @@
 	<!--news section -->
 	<newsList>
 		<news>
+			<id>6</id>
+			<Title>>Khám sức khỏe lần 2, năm học 2024-2025</Title>
+			<Content>
+			Ngày 14/03/2025, nhà trường kết hợp với y tế phường Bửu Hòa tổ chức khám sức khỏe lần 2 cho các con.
+				
+			<![CDATA[<p> <a href="img/Tết (24).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/Tết (24).jpg" alt=""></img></a>
+			
+			</p>]]> 	
+			</Content>
+		</news>			
+	</newsList>		
+			
+	
+	<newsList>
+		<news>
 			<id>5</id>
 			<Title>Cùng đón tết 2025</Title>
 			<Content>
