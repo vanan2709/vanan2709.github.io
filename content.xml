@@ -3,6 +3,33 @@
 	<!--news section -->
 	<newsList>
 		<news>
+			<id>7</id>
+			<Title>>Chào mừng Lễ 30/4 của các bạn nhỏ</Title>
+			<Content>
+				Một số hình ảnh chào mừng Lễ 30/4 của các bạn nhỏ
+				
+			<![CDATA[<p> 
+			<a href="img/2026_Hinh 30-4 (1).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/2026_Hinh 30-4 (1).jpg" alt=""></img></a>
+			<a href="img/2026_Hinh 30-4 (2).jpg" data-lightbox="gallery" data-title=""><img width="0" height="980" src="img/2026_Hinh 30-4 (2).jpg" alt=""></img></a>
+			<a href="img/2026_Hinh 30-4 (3).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/2026_Hinh 30-4 (3).jpg" alt=""></img></a>
+			<a href="img/2026_Hinh 30-4 (4).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/2026_Hinh 30-4 (4).jpg" alt=""></img></a>
+			<a href="img/2026_Hinh 30-4 (5).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/2026_Hinh 30-4 (5).jpg" alt=""></img></a>
+			<a href="img/2026_Hinh 30-4 (6).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/2026_Hinh 30-4 (6).jpg" alt=""></img></a>
+			<a href="img/2026_Hinh 30-4 (7).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/2026_Hinh 30-4 (7).jpg" alt=""></img></a>
+			<a href="img/2026_Hinh 30-4 (8).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/2026_Hinh 30-4 (8).jpg" alt=""></img></a>
+			<a href="img/2026_Hinh 30-4 (9).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/2026_Hinh 30-4 (9).jpg" alt=""></img></a>
+			<a href="img/2026_Hinh 30-4 (10).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/2026_Hinh 30-4 (10).jpg" alt=""></img></a>
+			<a href="img/2026_Hinh 30-4 (11).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/2026_Hinh 30-4 (11).jpg" alt=""></img></a>
+			<a href="img/2026_Hinh 30-4 (12).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/2026_Hinh 30-4 (12).jpg" alt=""></img></a>
+			<a href="img/2026_Hinh 30-4 (13).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/2026_Hinh 30-4 (13).jpg" alt=""></img></a>
+			<a href="img/2026_Hinh 30-4 (14).jpg" data-lightbox="gallery" data-title=""><img width="500" height="700" src="img/2026_Hinh 30-4 (14).jpg" alt=""></img></a>
+
+			</p>]]> 	
+			</Content>
+		</news>			
+	</newsList>		
+	<newsList>
+		<news>
 			<id>6</id>
 			<Title>>Khám sức khỏe lần 2, năm học 2024-2025</Title>
 			<Content>
