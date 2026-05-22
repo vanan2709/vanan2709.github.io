@@ -265,6 +265,10 @@
 	<!--Pictures section -->
 	<pictures>
 		<image>
+			<Description>Chảo mừng 30/4</Description>
+			<Filename>img/2026_Hinh 30-4 (2)</Filename>
+		</image>
+		<image>
 			<Description>Lớp Nhà Trẻ chơi xâu vòng màu</Description>
 			<Filename>img/NT_Xâu màu.jpg</Filename>
 		</image>
